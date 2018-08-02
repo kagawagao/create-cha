@@ -1,0 +1,28 @@
+{
+  "name": "@cqmbr/cha-cli",
+  "version": "1.0.0",
+  "description": "command-line tool for Cha",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqmbr/cha-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "cha"
+  ],
+  "author": {
+    "name": "kagawagao",
+    "email": "kingsongao1221@gmail.com",
+    "url": "https://kingsongao.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cqmbr/cha-cli/issues"
+  },
+  "homepage": "https://github.com/cqmbr/cha-cli#readme"
+}

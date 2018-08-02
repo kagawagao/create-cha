@@ -1,5 +1,5 @@
 {
-  "name": "@cqmbr/cha-cli",
+  "name": "@cqmbr/create-cha",
   "version": "1.0.0",
   "description": "command-line tool for Cha",
   "main": "lib/index.js",
@@ -11,12 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cqmbr/cha-cli.git"
+    "url": "git+https://github.com/cqmbr/create-cha.git"
   },
   "keywords": [
     "cli",
     "command-line",
-    "cha"
+    "cha",
+    "init",
+    "npm-init",
+    "npx",
+    "initializer"
   ],
   "author": {
     "name": "kagawagao",
@@ -25,7 +29,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cqmbr/cha-cli/issues"
+    "url": "https://github.com/cqmbr/create-cha/issues"
   },
-  "homepage": "https://github.com/cqmbr/cha-cli#readme"
+  "homepage": "https://github.com/cqmbr/create-cha#readme"
 }

@@ -2,7 +2,7 @@
 
 import program from 'commander'
 import checkNode from './utils/check-node'
-import * as logger from '../utils/logger'
+import * as logger from './utils/logger'
 import pkg from '../package.json'
 
 // check node first

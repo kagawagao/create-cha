@@ -1,6 +1,12 @@
 # create-cha
 
-> Command-line tool for Cha, support `npm init` and `yarn create`
+> 🍵 Create React Application/Component based on Cha, support `npm init` and `yarn create`
+
+## Environments
+
+- `Node`: `>= 8`
+- `npm`: `>= 6`
+- `yarn`: `>= 1`
 
 ## TODO
 

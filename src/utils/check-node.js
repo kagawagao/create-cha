@@ -9,7 +9,6 @@ export default () => {
   const major = nodeVersion.split('.')[0]
 
   if (major < 8) {
-    console.log()
     error(`You are running ${pkg.name} on Node ${nodeVersion}, need Node 8 or higher`)
     process.exit(1)
   }

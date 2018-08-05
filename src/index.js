@@ -4,6 +4,12 @@ import program from 'commander'
 import checkNode from './utils/check-node'
 import * as logger from './utils/logger'
 import pkg from '../package.json'
+// padding
+console.log()
+
+program.on('exit', () => {
+  console.log()
+})
 
 // check node first
 checkNode()
@@ -30,6 +36,7 @@ program
 
 if (!projectName) {
   logger.error('You must present project name')
+  process.exit(1)
 }
 
 console.log(isDesktopWebProject)

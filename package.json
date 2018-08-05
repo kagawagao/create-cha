@@ -4,10 +4,14 @@
   "description": "command-line tool for Cha",
   "main": "lib/index.js",
   "bin": {
-    "cha": "bin/index.js"
+    "create-cha": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
+    "prebuild": "npm run lint",
+    "build": "babel src -d bin",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -31,5 +35,22 @@
   "bugs": {
     "url": "https://github.com/cqmbr/create-cha/issues"
   },
-  "homepage": "https://github.com/cqmbr/create-cha#readme"
+  "homepage": "https://github.com/cqmbr/create-cha#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.56",
+    "chalk": "^2.4.1",
+    "commander": "^2.17.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.56",
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
 }

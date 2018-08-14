@@ -37,18 +37,18 @@
   },
   "homepage": "https://github.com/cqmbr/create-cha#readme",
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.56",
+    "@babel/runtime": "^7.0.0-rc.1",
     "chalk": "^2.4.1",
-    "commander": "^2.17.0"
+    "commander": "^2.17.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.56",
-    "@babel/core": "^7.0.0-beta.56",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.56",
-    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/cli": "^7.0.0-rc.1",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
     "eslint": "^5.3.0",
     "eslint-config-standard": "^12.0.0-alpha.0",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0"

@@ -19,9 +19,10 @@ let isDesktopWebProject = true
 let isMobileWebProject = false
 let isHybridProject = false
 let isReactComponent = false
+let isRNProject = false
 
 program
-  .version(pkg.version)
+  .version(pkg.version, '-v, --version')
   .arguments('<project-name>')
   .usage('<project-name> [options]')
   .action(name => {
@@ -29,17 +30,28 @@ program
   })
   .option('-d, --desktop', 'create react desktop web project based on cha', (desktop) => {
     isDesktopWebProject = desktop
-  }, false)
+  }, true)
   .option('-c, --component', 'create react component', (component) => {
     isReactComponent = component
   }, false)
+  .option('-b, --hybrid', 'create react hybrid project based on cha', (hybrid) => {
+    isHybridProject = hybrid
+  }, false)
+  .option('-m, --mobile', 'create react mobile project based on cha', (mobile) => {
+    isMobileWebProject = mobile
+  }, false)
+  .option('-n, --native', 'create react native project based on cha', (native) => {
+    isRNProject = native
+  }, false)
+  .parse(process.argv)
 
 if (!projectName) {
   logger.error('You must present project name')
   process.exit(1)
 }
-
+console.log(projectName)
 console.log(isDesktopWebProject)
 console.log(isMobileWebProject)
 console.log(isHybridProject)
 console.log(isReactComponent)
+console.log(isRNProject)

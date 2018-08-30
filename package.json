@@ -11,7 +11,8 @@
     "lint": "eslint ./src",
     "prebuild": "npm run lint",
     "build": "babel src -d bin",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "preversion": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -37,20 +38,20 @@
   },
   "homepage": "https://github.com/cqmbr/create-cha#readme",
   "dependencies": {
-    "@babel/runtime": "^7.0.0-rc.1",
+    "@babel/runtime": "^7.0.0",
     "chalk": "^2.4.1",
     "commander": "^2.17.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-rc.1",
-    "@babel/core": "^7.0.0-rc.1",
-    "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1",
-    "eslint": "^5.3.0",
-    "eslint-config-standard": "^12.0.0-alpha.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }

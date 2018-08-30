@@ -2,7 +2,7 @@
 
 import program from 'commander'
 import checkNode from './utils/check-node'
-import * as logger from './utils/logger'
+import signale from 'signale'
 import pkg from '../package.json'
 // padding
 console.log()
@@ -46,12 +46,12 @@ program
   .parse(process.argv)
 
 if (!projectName) {
-  logger.error('You must present project name')
+  signale.error('You must present project name')
   process.exit(1)
 }
-console.log(projectName)
-console.log(isDesktopWebProject)
-console.log(isMobileWebProject)
-console.log(isHybridProject)
-console.log(isReactComponent)
-console.log(isRNProject)
+signale.info(projectName)
+signale.info(isDesktopWebProject)
+signale.info(isMobileWebProject)
+signale.info(isHybridProject)
+signale.info(isReactComponent)
+signale.info(isRNProject)

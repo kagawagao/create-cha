@@ -39,8 +39,8 @@
   "homepage": "https://github.com/cqmbr/create-cha#readme",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "chalk": "^2.4.1",
-    "commander": "^2.17.1"
+    "commander": "^2.17.1",
+    "signale": "^1.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",

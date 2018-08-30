@@ -1,4 +1,4 @@
-import { error } from './logger'
+import signale from 'signale'
 import pkg from '../../package.json'
 
 /**
@@ -9,7 +9,7 @@ export default () => {
   const major = nodeVersion.split('.')[0]
 
   if (major < 8) {
-    error(`You are running ${pkg.name} on Node ${nodeVersion}, need Node 8 or higher`)
+    signale.error(`You are running ${pkg.name} on Node ${nodeVersion}, need Node 8 or higher`)
     process.exit(1)
   }
 }

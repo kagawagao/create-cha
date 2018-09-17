@@ -14,6 +14,9 @@
     "prepare": "npm run build",
     "preversion": "npm run build"
   },
+  "pre-commit": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cqmbr/create-cha.git"
@@ -39,19 +42,23 @@
   "homepage": "https://github.com/cqmbr/create-cha#readme",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "commander": "^2.17.1",
-    "signale": "^1.2.1"
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "inquirer": "^6.2.0",
+    "lodash": "^4.17.11",
+    "signale": "^1.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.0.1",
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "eslint": "^5.4.0",
+    "eslint": "^5.6.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "pre-commit": "^1.2.2"
   }
 }

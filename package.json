@@ -1,8 +1,8 @@
 {
   "name": "@cqmbr/create-cha",
   "version": "1.0.3",
-  "description": "command-line tool for Cha",
-  "main": "lib/index.js",
+  "description": "🍵 Create React Application/Component based on Cha",
+  "main": "bin/index.js",
   "bin": {
     "create-cha": "bin/index.js"
   },
@@ -65,5 +65,10 @@
   },
   "files": [
     "bin"
-  ]
+  ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=6",
+    "yarn": ">=1"
+  }
 }

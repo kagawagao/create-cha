@@ -1,6 +1,6 @@
 {
   "name": "@cqmbr/create-cha",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🍵 Create React Application/Component based on Cha",
   "main": "bin/index.js",
   "bin": {

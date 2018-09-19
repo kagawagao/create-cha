@@ -1,6 +1,6 @@
 # create-cha
 
-> 🍵 Create React Application/Component based on Cha, support `npm init` and `yarn create`
+🍵 Create React Application/Component based on Cha, support `npm init` and `yarn create`
 
 ## Environments
 
@@ -8,8 +8,32 @@
 - `npm`: `>= 6`
 - `yarn`: `>= 1`
 
-## TODO
+## Usage
 
-> everything is need to be coded
+### Install(optional)
 
-- [ ] basic init script
+```bash
+npm install @cqmbr/create-cha -g
+```
+
+### Use
+
+- Use with `npm init`(recommend)
+
+  ```bash
+  npm init @cqmbr/cha <project-name>
+  ```
+
+- Use directly
+
+  ```bash
+  create-cha <project-name>
+  ```
+
+## Support project type
+
+- [x] React Desktop Project
+- [x] React Mobile Project
+- [ ] React Hybrid Project
+- [ ] React Native Project
+- [ ] React Component

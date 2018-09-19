@@ -44,8 +44,10 @@
     "@babel/runtime": "^7.0.0",
     "chalk": "^2.4.1",
     "commander": "^2.18.0",
+    "decompress": "^4.2.0",
     "inquirer": "^6.2.0",
     "lodash": "^4.17.11",
+    "progress": "^2.0.0",
     "signale": "^1.3.0"
   },
   "devDependencies": {

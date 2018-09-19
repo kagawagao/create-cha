@@ -1,9 +1,9 @@
 const templates = {
   desktop: {
-    url: 'kagawagao/cha#desktop'
+    url: 'https://codeload.github.com/kagawagao/cha/zip/desktop'
   },
   mobile: {
-    url: 'kagawagao/cha#mobile'
+    url: 'https://codeload.github.com/kagawagao/cha/zip/mobile'
   }
 }
 
@@ -11,4 +11,4 @@ const getTemplate = (type) => {
   return templates[type]
 }
 
-export default getTemplate
+module.exports = getTemplate

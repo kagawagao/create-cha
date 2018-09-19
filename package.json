@@ -62,5 +62,8 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "pre-commit": "^1.2.2"
-  }
+  },
+  "files": [
+    "bin"
+  ]
 }

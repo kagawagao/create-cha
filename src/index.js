@@ -131,7 +131,6 @@ const updatePkg = async (dest) => {
     })
 
     pkg.name = (name && name.trim()) || projectName
-    pkg.description = `${pkg.name} - Powered By AE(Admin Engine)`
     const defaultVersion = '0.0.1-alpha.1'
     const { version } = await inquirer.prompt({
       type: 'input',

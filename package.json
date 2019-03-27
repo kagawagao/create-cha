@@ -1,6 +1,6 @@
 {
   "name": "create-cha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🍵 Create React Application/Component based on Cha",
   "main": "bin/index.js",
   "bin": {

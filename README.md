@@ -10,7 +10,7 @@
 
 ## Environments
 
-- `Node`: `>= 8`
+- `Node`: `>= 8.10.0`
 - `npm`: `>= 6`
 - `yarn`: `>= 1`
 
